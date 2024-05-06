@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    background-color: rgb(188, 188, 235);
+}
+
+.form_create{
+    display: flex;
+    gap: 2px;
+}
+
+.content_user{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.content_input{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.thead{
+    display: flex;
+    gap: 1rem;
+}
+
+.container_table{
+    display: flex;
+}
